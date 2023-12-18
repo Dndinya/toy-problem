@@ -12,10 +12,14 @@ I have only two main files
 1. grade.js
 2. grade.html
 ## Speed detector
-This is a speed detector that is built using html and JavaScript. The system brings out an input window,with the text "Enter the speed of the car?" prompt Which requests you for speed of the car and Ouputs "Ok" if the speed is less than or equals to 70km/hr. If the speed is greater than 70km/hr it outputs the drivers demerit points and if the demerit points are greater than 12 it outputs the drivers license is suspended.This works in several ways and I decided to run  it in prompt window within the browser. If you want to check it within your terminal with node js you could change the alert() methods to console.log() and then delete the prompt method. I have only two main files 
+This is a speed detector that is built using html and JavaScript. The system brings out an input window,with the text "Enter the speed of the car?" prompt Which requests you for speed of the car and Ouputs "Ok" if the speed is less than or equals to 70km/hr. If the speed is greater than 70km/hr it outputs the drivers demerit points and if the demerit points are greater than 12 it outputs the drivers license is suspended.This works in several ways and I decided to run  it in prompt window within the browser. If you want to check it within your terminal with node js you could change the alert() methods to console.log() and then delete the prompt method. 
+ If you want want to see the workings within the console or terminal by running node js you could remove the prompt line of code and change the alerts to console.log
+
+I have only two main files 
 1. speed.js
 2. speed.html
-The other files just appeared  the node modules folder, while i tried to install "npm install prompt-sync " for me to run a node js . You can ignore them.
+
+
 ###### Set up Instructions
 Languages used 
 1. Javascript 
