@@ -1,12 +1,12 @@
-function calculateDemeritPoints() {
+function calculateDemeritPoints(speed) {
     const speedLimit = 70;
     const pointsPerExcess = 5;
     const demeritPointsThreshold = 12;
     
-    let speed = prompt("Enter the speed of the car!");
+    
     // Check if speed is less than or equal to the speed limit
     if (speed <= speedLimit) {
-      alert ("Ok");
+      console.log ("Ok");
     } else {
       // Calculate demerit points
       const excessSpeed = speed - speedLimit;
@@ -14,11 +14,11 @@ function calculateDemeritPoints() {
       const demeritPoints = Math.floor(excessSpeed / pointsPerExcess);
   
       // Output the demerit points
-      alert (`Points: ${demeritPoints}`);
+      console.log (`Points: ${demeritPoints}`);
   
       // Check if the driver's license should be suspended
       if (demeritPoints > demeritPointsThreshold) {
-        alert ("License suspended");
+        console.log("License suspended");
       }
     }
   }
