@@ -55,7 +55,7 @@ function calculateNetSalary(basicSalary, benefits){
 // Calculate Gross salary 
     const grossSalary = basicSalary+benefits;
 //calculate net salary
-    const netSalary = basicSalary-paye-nhifRates-nssfDeductions;
+    const netSalary = grossSalary-paye-nhifRates-nssfDeductions;
 
   // Output the results
   console.log(`Gross Salary: ${grossSalary}`);
@@ -64,7 +64,7 @@ function calculateNetSalary(basicSalary, benefits){
   console.log(`NSSF Deductions: ${nssfDeductions}`);
   console.log(`Net Salary: ${netSalary}`);
 }
-const basicSalary = 50000;
+const basicSalary = 80000;
 const benefits = 10000;
 
 calculateNetSalary(basicSalary, benefits);
